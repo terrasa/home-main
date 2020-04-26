@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="Sygris SCINF" content="width=device-width, initial-scale=1.0">
     <title>Sygris SCINF</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/template.css">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    <script src="./resources/js/jquery-1.3.1.min.js" type="text/javascript"></script>   
+    <script src="./resources/js/jquery-3.5.0.min.js" type="text/javascript"></script>   
 </head>
 
 <body>
@@ -64,7 +64,6 @@
                             <p>Anual</p>
                         </div>
                     </div>
-                    <div class = "box__border-tab"></div>
                 </div>
                 <div class="box-container selected">
                     <div class="box flex-container flex-container--vertical-align">
@@ -102,14 +101,16 @@
             <div class = "page-container__page">
                 <div class="flex-container">
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align">
-                            <div class = "icon-box">
-                                <img src="./resources/img/iconos files/file-alt.svg" alt="">
-                            </div>
-                            <div class = "title-box">
-                                <p>Modelo de </p>
-                                <p>negocio</p>
-                            </div>
+                        <div class="box">
+                            <div class="flex-container  flex-container--vertical-align">
+                                <div class = "icon-box">
+                                    <img src="./resources/img/iconos files/file-alt.svg" alt="">
+                                </div>
+                                <div class = "title-box">
+                                    <p>Modelo de </p>
+                                    <p>negocio</p>
+                                </div>
+                            </div>   
                             <div class = "text-box">
                                 <p>Breve descripción, instrucción, guía, o
                                     introducción al contenido dentro de esta
@@ -118,14 +119,16 @@
                         </div>
                     </div>
                     <div class="box-container">
-                        <div class="box selected flex-container flex-container--vertical-align">
-                            <div class = "icon-box">
-                                <img src="./resources/img/iconos files/file-invoice-dollar.svg" alt="">
-                            </div>
-                            <div class = "title-box">
-                                <p>Factores y </p>
-                                <p>tendencias</p>
-                            </div>
+                        <div class="box">
+                            <div class="flex-container  flex-container--vertical-align">
+                                <div class = "icon-box">
+                                    <img src="./resources/img/iconos files/file-invoice-dollar.svg" alt="">
+                                </div>
+                                <div class = "title-box">
+                                    <p>Factores y </p>
+                                    <p>tendencias</p>
+                                </div>
+                            </div>  
                             <div class = "text-box">
                                 <p>Breve descripción, instrucción, guía, o
                                     introducción al contenido dentro de esta
@@ -134,29 +137,100 @@
                         </div>
                     </div>
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align">
-                            <div class = "icon-box">
-                                <img src="./resources/img/iconos files/file-edit.svg" alt="">
-                            </div>
-                            <div class = "title-box">
-                                <p>Políticas de la compañía </p>
-                                <p>y resultados</p>
-                            </div>
+                        <div class="box box--drop-down">
+                            <div class="flex-container  flex-container--vertical-align">
+                                <div class = "icon-box">
+                                    <img src="./resources/img/iconos files/file-edit.svg" alt="">
+                                </div>
+                                <div class = "title-box">
+                                    <p>Políticas de la compañía </p>
+                                    <p>y resultados</p>
+                                </div>
+                                <div class="icon-dropdown">
+                                    <img src="./resources/img/angle-right-light.svg" alt="">
+                                </div>
+                            </div>  
                             <div class = "text-box">
                                 <p>Breve descripción, instrucción, guía, o
                                     introducción al contenido dentro de esta
+                                    sección o pagina - Introducción al contenido dentro de esta
                                     sección o pagina</p>
                             </div>
                         </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Identificar los grupos sociales</a>
+                            </li> 
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Segmentar personal</a>
+                            </li>
+                        </ul> 
                     </div>
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align">
+                        <div class="box box--drop-down flex-container flex-container--vertical-align">
                             <div class = "icon-box">
                                 <img src="./resources/img/iconos files/file-chart-line.svg" alt="">
                             </div>
                             <div class = "title-box">
                                 <p>Cuestiones</p>
                                 <p>meioambientales</p>
+                            </div>
+                            <div class="icon-dropdown">
+                                <img src="./resources/img/angle-right-light.svg" alt="">
+                            </div>
+                            <div class = "text-box">
+                                <p>Breve descripción, instrucción, guía, o
+                                    introducción al contenido dentro de esta
+                                    sección o pagina</p>
+                            </div>
+                        </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Identificar riesgos medioambientales</a>
+                            </li> 
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Segmentar </a>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Priorizar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-container">
+                        <div class="box box--drop-down flex-container flex-container--vertical-align">
+                            <div class = "icon-box">
+                                <img src="./resources/img/iconos files/file-spreadsheet.svg" alt="">
+                            </div>
+                            <div class = "title-box">
+                                <p>Sociales y </p>
+                                <p>de personal</p>
+                            </div>
+                            <div class="icon-dropdown">
+                                <img src="./resources/img/angle-right-light.svg" alt="">
+                            </div>
+                            <div class = "text-box">
+                                <p>Breve descripción, instrucción, guía, o
+                                    introducción al contenido dentro de esta
+                                    sección o pagina</p>
+                            </div>
+                        </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Identificar los grupos sociales</a>
+                            </li> 
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Segmentar personal</a>
+                            </li>
+                        </ul>                       
+                    </div>
+                    <div class="box-container">
+                        <div class="box flex-container flex-container--vertical-align">
+                            <div class = "icon-box">
+                                <img src="./resources/img/iconos files/file-spreadsheet.svg" alt="">
+                            </div>
+                            <div class = "title-box">
+                                <p>Derechos </p>
+                                <p>Humanos</p>
                             </div>
                             <div class = "text-box">
                                 <p>Breve descripción, instrucción, guía, o
@@ -171,8 +245,8 @@
                                 <img src="./resources/img/iconos files/file-spreadsheet.svg" alt="">
                             </div>
                             <div class = "title-box">
-                                <p>Sociales y </p>
-                                <p>de personal</p>
+                                <p>Corrupción y</p>
+                                <p>soborno</p>
                             </div>
                             <div class = "text-box">
                                 <p>Breve descripción, instrucción, guía, o
@@ -181,82 +255,165 @@
                             </div>
                         </div>
                     </div>
+                    <div class="box-container">
+                        <div class="box flex-container flex-container--vertical-align">
+                            <div class = "icon-box">
+                                <img src="./resources/img/iconos files/file-spreadsheet.svg" alt="">
+                            </div>
+                            <div class = "title-box">
+                                <p>Sociedad</p>
+                            </div>
+                            <div class = "text-box">
+                                <p>Breve descripción, instrucción, guía, o
+                                    introducción al contenido dentro de esta
+                                    sección o pagina</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                        <div class="box-container">
+                            <div class="box box--drop-down flex-container flex-container--vertical-align">
+                                <div class = "icon-box">
+                                    <img src="./resources/img/iconos files/file-spreadsheet.svg" alt="">
+                                </div>
+                                <div class = "title-box">
+                                    <p>Anexos</p>
+                                </div>
+                                <div class="icon-dropdown">
+                                    <img src="./resources/img/angle-right-light.svg" alt="">
+                                </div>
+                                <div class = "text-box">
+                                    <p>Breve descripción, instrucción, guía, o
+                                        introducción al contenido dentro de esta
+                                        sección o pagina</p>
+                                </div>
+                            </div>
+                            <ul class="sub-menu-dropdown box">
+                                <li class="li-link flex-container flex-container--last-item-push-right">
+                                    <a href="#">Identificar los grupos de interés</a>
+                                </li> 
+                                <li class="li-link flex-container flex-container--last-item-push-right">
+                                    <a href="#">Segmentar los GI en SGI</a>
+                                </li>
+                                <li class="li-link flex-container flex-container--last-item-push-right">
+                                    <a href="#">Priorizar los SGI</a>
+                                </li>
+                                <li class="li-link flex-container flex-container--last-item-push-right">
+                                    <a href="#">Establecer niveles de relación</a>
+                                </li>
+                            </ul>
+                        </div>
                     
                 </div>
             </div>
             
-
-            
-            <div class = "page-container__info">
+            <div class="page-container__info">
                 <div class="flex-container">
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align flex-container--last-item-push-right">
-                            <div class = "flex-container flex-container--align-centered" >
+                        <div class="box box--drop-down  flex-container flex-container--vertical-align flex-container--last-item-push-right">
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/icon-separador.svg" alt="">
                             </div>
-                            <div class = "title-box">
+                            <div class="title-box">
                                 <p>Manuales </p>
                             </div>
-                            <div class = "flex-container flex-container--align-centered" >
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/angle-right-light.svg" alt="">
                             </div>
                         </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Certificación A</a>
+                                <div class="data-box flex-container flex-container--align-centered">2</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Certificación B</a>
+                                <div class="data-box flex-container flex-container--align-centered">6</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Certificación C</a>
+                                <div class="data-box flex-container flex-container--align-centered">12</div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="box-container open">
-                        <div class="box flex-container flex-container--vertical-align flex-container--last-item-push-right">
-                            <div class = "flex-container flex-container--align-centered" >
-                                <img src="./resources/img/icon-separador.svg" alt="">
-                            </div>
-                            <div class = "title-box">
-                                <p>Certificación </p>
-                            </div>
-                            <div class = "data-box flex-container flex-container--align-centered" >
-                                2
-                            </div>
-                        </div>
-                    </div>
-                    
+            
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align flex-container--last-item-push-right">
-                            <div class = "flex-container flex-container--align-centered" >
+                        <div class="box box--drop-down  flex-container flex-container--vertical-align flex-container--last-item-push-right">
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/icon-separador.svg" alt="">
                             </div>
-                            <div class = "title-box">
+                            <div class="title-box">
                                 <p>Cuestionarios </p>
                             </div>
-                            <div class = "flex-container flex-container--align-centered" >
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/angle-right-light.svg" alt="">
                             </div>
                         </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Cuestionarios A</a>
+                                <div class="data-box flex-container flex-container--align-centered">2</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Cuestionarios B</a>
+                                <div class="data-box flex-container flex-container--align-centered">6</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Cuestionarios C</a>
+                                <div class="data-box flex-container flex-container--align-centered">12</div>
+                            </li>
+                        </ul>
                     </div>
+            
                     <div class="box-container">
-                        <div class="box flex-container flex-container--vertical-align flex-container--last-item-push-right">
-                            <div class = "flex-container flex-container--align-centered" >
+                        <div
+                            class="box box--drop-down  flex-container flex-container--vertical-align flex-container--last-item-push-right">
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/icon-separador.svg" alt="">
                             </div>
-                            <div class = "title-box">
+                            <div class="title-box">
                                 <p>Más informción </p>
                             </div>
-                            <div class = "flex-container flex-container--align-centered" >
+                            <div class="flex-container flex-container--align-centered">
                                 <img src="./resources/img/angle-right-light.svg" alt="">
                             </div>
                         </div>
+                        <ul class="sub-menu-dropdown box">
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Más Info A</a>
+                                <div class="data-box flex-container flex-container--align-centered">2</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Más Info B</a>
+                                <div class="data-box flex-container flex-container--align-centered">6</div>
+                            </li>
+                            <li class="li-link flex-container flex-container--last-item-push-right">
+                                <a href="#">Más Info C</a>
+                                <div class="data-box flex-container flex-container--align-centered">12</div>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="container-dropdown">
-                        <li><a href="#" class = "dropdwon">Manuales</a></li>
+                        
+                    <div class="box-container">
+                        <div
+                            class="box box--drop-down  flex-container flex-container--vertical-align flex-container--last-item-push-right">
+                            <div class="flex-container flex-container--align-centered">
+                                <img src="./resources/img/icon-separador.svg" alt="">
+                            </div>
+                            <div class="title-box">
+                                <p>Manuales </p>
+                            </div>
+                            <div class="flex-container flex-container--align-centered">
+                                <i class="fa fa-camera-retro"></i>
+                            </div>
+                        </div>
                         <ul class="sub-menu-dropdown">
-                            <li><a href="#">Certificación</a></li>
-                            <li><a href="#">Certificación B</a></li>
-                            <li><a href="#">Certificación C</a></li>
+                            <li class="box"><a href="#">Certificación</a></li>
+                            <li class="box"><a href="#">Certificación B</a></li>
+                            <li class="box"><a href="#">Certificación C</a></li>
                         </ul>
-                        <li><a href="#" class = "dropdwon">Cuestionarios</a></li>
-                        <ul class="sub-menu-dropdown">
-                            <li><a href="#">Certificación D</a></li>
-                            <li><a href="#">Certificación E</a></li>
-                            <li><a href="#">Certificación F</a></li>
-                        </ul>
-                        <li><a href="#" class = "">Más información</a></li>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </div>

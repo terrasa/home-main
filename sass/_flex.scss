@@ -1,0 +1,38 @@
+.flex-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    > div, > a {
+        flex: 0 1 auto;
+    }
+
+    &--last-item-push-right {
+        > div:last-child {
+            margin-left: auto;
+        }
+    }
+
+    &--align-centered {
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--vertical-align {
+        align-items: center;
+    }
+
+    &--align-right {
+        justify-content: flex-end;
+    }
+
+    &--menu-bar {
+        > div {
+            flex: 1;
+        }
+
+        > div:first-child {
+            flex: 0 1 231px;
+        }
+    }
+}
