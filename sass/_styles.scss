@@ -37,6 +37,7 @@
                     align-items: center;
                     transition-duration: .4s;
                     transition-property: border-color, background-color;
+                    cursor: pointer;
 
 
                     &.selected {
@@ -94,6 +95,7 @@
 }
 
 .box-container {
+    
 
     ul {
         list-style: none;
@@ -148,7 +150,7 @@
             background-color: $menu-color;
             color: #fff;
             font-size: 0.8rem;
-            padding: 3px 4px;
+            padding: 3px 4px 5px;
             border-radius: 4px;
             height: 0.6rem;
         }
@@ -314,6 +316,15 @@
                     } 
                 }
             }
+        }
+    }
+
+    .page-container__info &,
+    .page-container__page &,
+    .page-container__tabs & {
+
+        .box {
+            cursor: pointer;
         }
     }
 }

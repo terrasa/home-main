@@ -3,7 +3,7 @@ header {
     background-color: $primary-color;
     color: #fff;
     padding: 0 0 0 15px;
-    
+
     img {
         height: 1.6rem;
     }
@@ -11,6 +11,7 @@ header {
     .brand-logo {
         padding-right: 25px;
         position: relative;
+        cursor: pointer;
 
         &::after {
             content: '|';
@@ -29,6 +30,7 @@ header {
             position: relative;
             min-width: 40px;
             text-align: center;
+            cursor: pointer;
 
             p {
                 display: inline-block;
