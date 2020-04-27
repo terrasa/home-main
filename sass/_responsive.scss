@@ -45,7 +45,6 @@
 
 @media screen and (max-width: 800px) {
     html {
-        font-size: 11px;
 
         .main-container {
         
@@ -60,19 +59,18 @@
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 750px) {
     html {
-        font-size: 11px;
+        font-size: 13px;
 
         .main-container {
         
-            .page-container__tabs {
+            .page-container__tabs,
+            .page-container__page,
+            .page-container__info {
                 .box-container {
                     flex: 0 1 100%;
                 }
-            }
-            .page-container__info .box-container {
-                flex: 0 1 100%;
             }
         }
     }
