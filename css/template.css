@@ -18,7 +18,8 @@ header {
     height: 1.6rem; }
   header .brand-logo {
     padding-right: 25px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     header .brand-logo::after {
       content: '|';
       font-size: 1.5rem;
@@ -31,7 +32,8 @@ header {
       padding: 0 15px;
       position: relative;
       min-width: 40px;
-      text-align: center; }
+      text-align: center;
+      cursor: pointer; }
       header .header-navbar .header-lang p, header .header-navbar .header-logout p, header .header-navbar .header-user p {
         display: inline-block;
         font-weight: 600; }
@@ -81,7 +83,8 @@ header {
         display: flex;
         align-items: center;
         transition-duration: .4s;
-        transition-property: border-color, background-color; }
+        transition-property: border-color, background-color;
+        cursor: pointer; }
         .main-container .menu-bar__nav > ul li.selected {
           background-color: rgba(255, 82, 82, 0.5);
           font-weight: bold;
@@ -151,7 +154,7 @@ header {
     background-color: #ff0505;
     color: #fff;
     font-size: 0.8rem;
-    padding: 3px 4px;
+    padding: 3px 4px 5px;
     border-radius: 4px;
     height: 0.6rem; }
   .box-container .box img {
@@ -242,6 +245,8 @@ header {
   border-color: #ff0505; }
   .page-container__info .box-container .box--drop-down.open .title-box, .page-container__info .box-container .box--drop-down.open:hover .title-box, .page-container__page .box-container .box--drop-down.open .title-box, .page-container__page .box-container .box--drop-down.open:hover .title-box {
     color: #ff0505; }
+.page-container__info .box-container .box, .page-container__page .box-container .box, .page-container__tabs .box-container .box {
+  cursor: pointer; }
 
 .flex-container {
   display: flex;
